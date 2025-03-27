@@ -25,8 +25,6 @@ app.get('/', (req, res) => { res.sendFile('./src/public/index.html', { root: '.'
 app.get('/index', (req, res) => { res.redirect('/'); });
 app.get('/index.html', (req, res) => { res.redirect('/'); });
 
-app.get('/', (req, res) => { res.sendFile('./src/public/index.html', { root: '.' }); });
-
 app.get('/analytics/', (req, res) => { res.sendFile('./src/public/index.html', { root: '.' }); });
 app.get('/analytics.html', (req, res) => { res.redirect('/analytics'); });
 
