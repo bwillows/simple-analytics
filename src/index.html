@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/343382551b.js" crossorigin="anonymous"></script>
+  <script src="/scripts/main.js"></script>
+</head>
+
+<body>
+<div class="inner">
+    <div id="analytics">
+        <div id="viewers">
+
+        </div>
+        <div id="stats">
+      
+        </div>
+        <div id="links">
+      
+        </div>
+    </div>
+</div>
+
+<script>
+ setTimeout(function() {
+    fetch("/api/analytics.json")
+        .then(response => response.json())
+        .then(analytics_response => {
+          
+            }
+        );
+  }, 16000);
+  
+  
+</script>
+
+</body>
+</html>
+
+
