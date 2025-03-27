@@ -1,0 +1,124 @@
+.display-none, .d-none, .hidden {
+    display: none !important
+    }
+.display-unset, .d-unset{
+    display: unset; 
+    }
+.display-flex, .d-flex, .flex {
+    display: flex; 
+    }
+.display-grid, .d-grid, .grid { 
+    display: grid; 
+    }
+.display-block, .d-block, .block {
+    display: block; 
+    }
+.display-inline, .d-inline, .inline {
+    display: inline; 
+    }
+.display-inline-block, .d-inline-block, .inline-block {
+    display: inline-block; 
+    } 
+.display-inline-flex, .d-inline-flex, .inline-flex {
+    display: inline-flex; 
+    }
+.display-inline-grid, .d-inline-grid, .inline-grid {
+    display: inline-grid; 
+    }
+.display-table, .d-table, .table {
+    display: table; 
+    }
+
+.margin-0-auto, .m-0-auto {
+    margin: 0 auto; 
+    }
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+
+.fl-left, .float-left {
+    float: left; 
+    }
+.fl-right, .float-right {
+    float: right; 
+    }
+.fl-none, .float-none {
+    float: none; 
+    }
+    
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+
+.w5, .w-5, .width-5 {
+    width: 5%; 
+    }
+.w10, .w-10, .width-10 {
+    width: 10%; 
+    }
+.w15, .w-15, .width-15 {
+    width: 15%; 
+    }
+.w20, .w-20, .width-20 {
+    width: 20%; 
+    }
+.w25, .w-25, .width-25 {
+    width: 25%; 
+    }
+.w30, .w-30, .width-30 {
+    width: 30%; 
+    }
+.w35, .w-35, .width-35 {
+    width: 35%; 
+    }
+.w40, .w-40, .width-40 {
+    width: 40%; 
+    }
+.w45, .w-45, .width-45 {
+    width: 45%; 
+    }
+.w50, .w-50, .width-50 {
+    width: 50%; 
+    }
+.w55, .w-55, .width-55 {
+    width: 55%; 
+    }
+.w60, .w-60, .width-60 {
+    width: 60%; 
+    }
+.w65, .w-65, .width-65 {
+    width: 65%; 
+    }
+.w70, .w-70, .width-70 {
+    width: 70%; 
+    }
+.w75, .w-75, .width-75 {
+    width: 75%; 
+    }
+.w80, .w-80, .width-80 {
+    width: 80%; 
+    }
+.w85, .w-85, .width-85 {
+    width: 85%; 
+    }
+.w90, .w-90, .width-90 { 
+    width: 90%; 
+    }
+.w95, .w-95, .width-95 {
+    width: 95%; 
+    }
+.w100, .w-100, .width-100 {
+    width: 100%; 
+    }
+.h100, .h-100, .height-100 {
+    height: 100%; 
+    }
+.italic {
+    font-style: italic;
+}
