@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="/analytics.css">
   <script src="https://kit.fontawesome.com/343382551b.js" crossorigin="anonymous"></script>
   <script src="/scripts/main.js"></script>
   <script src="/scripts/analytics.js"></script>
@@ -30,7 +31,6 @@
     fetch("/api/analytics.json")
         .then(response => response.json())
         .then(analytics_response => {
-          
             }
         );
   }, 16000);
