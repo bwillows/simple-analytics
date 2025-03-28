@@ -48,7 +48,6 @@ app.get('/analytics/init/', (req, res) => {
 
 app.use('/styles/', express.static('./src/public/styles/components/'));
 
-
 /* API */
 
 app.get('/api/analytics.json', (req, res) => { 
