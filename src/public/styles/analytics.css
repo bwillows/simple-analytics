@@ -7,3 +7,16 @@ html {
   width: 100%;
   max-width: 450px;
 }
+.stats,.links {
+  width: 50%;
+}
+.stat-box {
+  background-color: white;
+  border: 1px solid black;
+}
+.secondary {
+  font-weight: 12px;
+}
+.primary {
+  font-weight: 18px;
+}
