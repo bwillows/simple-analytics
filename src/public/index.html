@@ -9,16 +9,13 @@
 </head>
 
 <body>
-<div class="inner">
+  <div class="inner">
     <div id="analytics">
         <div id="viewers">
 
         </div>
         <class="clearfix">
           <div id="stats" class="float-left">
-            <div class="stat-box">
-              <span class="viewers-currently">0</span>
-            </div>
           </div>
           <div id="links" class="float-right">
       
@@ -32,7 +29,7 @@
     fetch("/api/analytics.json")
         .then(response => response.json())
         .then(analytics_response => {
-            }
+          }
         );
   }, 16000);
   
